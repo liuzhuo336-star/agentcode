@@ -1,0 +1,31 @@
+2026-03-31 10:30:03,710 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 10:30:03,710 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 今天天气如何
+2026-03-31 10:30:06,827 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-03-31 10:30:06,827 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-03-31 10:30:06,998 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-03-31 10:30:07,066 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 10:30:07,067 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 咸阳市
+2026-03-31 10:30:11,450 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-03-31 10:30:11,450 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '咸阳市'}
+2026-03-31 10:30:11,751 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-03-31 10:30:12,378 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-03-31 10:30:12,378 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市咸阳市天气为晴，气温17摄氏度，空气湿度51%，西风≤3级，数据发布时间2026-03-31 10:07:49。
+2026-03-31 10:30:36,255 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 10:30:36,256 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 本地如何保养扫地机器人
+2026-03-31 10:30:37,653 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-03-31 10:30:37,654 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人本地保养方法'}
+2026-03-31 10:30:41,028 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-03-31 10:30:41,577 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-03-31 10:30:41,578 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 定期清理滚刷和边刷上的缠绕物，清空尘盒并擦拭滤网，检查并清理传感器表面灰尘，保持充电座周围清洁无障碍。
+2026-03-31 10:32:04,832 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 10:32:04,832 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你是谁
+2026-03-31 10:32:22,527 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 10:32:22,527 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你使用的内核大模型是谁
+2026-03-31 10:38:20,061 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 10:38:20,062 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你是谁
+2026-03-31 10:40:06,550 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 10:40:06,551 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你是谁
+2026-03-31 10:40:25,415 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 10:40:25,416 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你是谁
+2026-03-31 18:10:45,569 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-03-31 18:10:45,569 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 111111
