@@ -122,8 +122,7 @@ def get_weather(city: str) -> str:
 def get_user_location() -> str:
     try:
         #私有ip地址无法在公网中进行访问，需要提供公网ip进行高德地图服务的访问
-        public_ip = "1.84.214.171"
-       # public_ip = _get_public_ip()
+        public_ip = _get_public_ip()
         params = {"ip": public_ip} if public_ip else {}
         ip_info = _gaode_get("/v3/ip", params)
 
